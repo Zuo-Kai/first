@@ -166,4 +166,9 @@ double 計算盈虧(double 買入成本, double 賣出收入) {
 
 ### 運行畫面
 
-![物件導向結果](https://github.com/user-attachments/assets/b84beb70-87af-4012-be16-7b1d55326778)
+![物件導向結果](https://github.com/user-attachments/assets/b84beb70-87af-4012-be16-7b1d55326778)  
+
+### 分工資訊
+##### 蕭祚愷 程式碼運行，期末報告
+##### 張凱勛 期中期末PPT製作
+##### 劉彥廷 期中報告
