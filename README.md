@@ -66,7 +66,7 @@ int main() {
 第42行：顯示盈虧結果
 第44行：程式正常結束回傳0
 
-StockInput.h
+###### StockInput.h
 程式碼
 #ifndef STOCK_INPUT_H
 #define STOCK_INPUT_H
@@ -81,7 +81,7 @@ int 輸入股數(const std::string& 動作);
 第1行：#ifndef ... #define ... #endif 是防止重複包含標頭檔的標準寫法
 第3行：宣告一個函式，傳入操作名稱，回傳價格（double）
 第5行：宣告一個函式，傳入操作名稱，回傳股數（int）
-StockInput.cpp
+###### StockInput.cpp
 程式碼
 #include <iostream>
 #include "StockInput.h"
@@ -108,7 +108,7 @@ int 輸入股數(const string& 動作) {
 第75行：輸入價格函式：提示用戶輸入操作價格，讀取並回傳
 第79行：輸入股數函式：提示用戶輸入操作股數，讀取並回傳
 
-StockCalc.h
+###### StockCalc.h
 程式碼
 #ifndef STOCK_CALC_H
 #define STOCK_CALC_H
@@ -127,7 +127,7 @@ double 計算盈虧(double 買入成本, double 賣出收入);
 第117行：宣告計算賣出收入函式，扣手續費及交易稅
 第119行：宣告計算盈虧函式
 
-StockCalc.cpp
+###### StockCalc.cpp
 程式碼
 #include "StockCalc.h"
 #include <cmath>
